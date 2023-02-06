@@ -1,4 +1,4 @@
-package com.example.sms.controller;
+package com.daniel.sms.controller;
 
 import org.springframework.stereotype.Controller;
 

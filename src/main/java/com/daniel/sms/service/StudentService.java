@@ -1,4 +1,4 @@
-package com.example.sms.service;
+package com.daniel.sms.service;
 
 public interface StudentService {
 

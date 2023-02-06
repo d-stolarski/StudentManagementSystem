@@ -1,9 +1,9 @@
-package com.example.sms.repository;
+package com.daniel.sms.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.sms.entity.Student;
+import com.daniel.sms.entity.Student;
 
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long>{

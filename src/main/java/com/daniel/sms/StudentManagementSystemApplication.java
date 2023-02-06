@@ -1,4 +1,4 @@
-package com.example.sms;
+package com.daniel.sms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
