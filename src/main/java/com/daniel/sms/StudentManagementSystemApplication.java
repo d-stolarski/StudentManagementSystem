@@ -9,7 +9,7 @@ import com.daniel.sms.entity.Student;
 import com.daniel.sms.repository.StudentRepository;
 
 @SpringBootApplication
-public class StudentManagementSystemApplication implements CommandLineRunner {
+public class StudentManagementSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentManagementSystemApplication.class, args);
@@ -18,18 +18,18 @@ public class StudentManagementSystemApplication implements CommandLineRunner {
 	@Autowired
 	private StudentRepository studentRepository;
 	
-	@Override
-	public void run(String... args) throws Exception {
-		
-		Student student1 = new Student("John", "Brown", "j.brown@gmail.com");
-		studentRepository.save(student1);
-		
-		Student student2 = new Student("Adam", "Smith", "a.smith@gmail.com");
-		studentRepository.save(student2);
-		
-		Student student3 = new Student("Paul", "Stone", "p.stone@gmail.com");
-		studentRepository.save(student3);
-		
-	}
+//	@Override
+//	public void run(String... args) throws Exception {
+//		
+//		Student student1 = new Student("John", "Brown", "j.brown@gmail.com");
+//		studentRepository.save(student1);
+//		
+//		Student student2 = new Student("Adam", "Smith", "a.smith@gmail.com");
+//		studentRepository.save(student2);
+//		
+//		Student student3 = new Student("Paul", "Stone", "p.stone@gmail.com");
+//		studentRepository.save(student3);
+//		
+//	}
 
 }
