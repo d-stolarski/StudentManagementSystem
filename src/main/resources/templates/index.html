@@ -9,19 +9,20 @@
 	crossorigin="anonymous">
 </head>
 <body>
-	<div class="container text-center">
+	<div class="container-fluid">
 		<div class="bg-image"
 			style="background-image: url('https://www.freevector.com/uploads/vector/preview/28143/Education_Background_vector_5.jpg'); height: 100vh;">
 			<div class="text-center">
-				<h1 class="border border-secondary">
+				<h1 class="border border-secondary bg-dark text-white">
 					WELCOME TO<br>STUDENTS MANAGEMENT SYSTEM
 				</h1>
-			</div>
+			</div><br />&nbsp;<br /> 
 			<div class="row ">
 				<div class="col-lg-3">
-					<a th:href="@{/students/new}" class="btn btn-primary btn-m mb-3">
-						Add student</a> <a th:href="@{/students}"
-						class="btn btn-primary btn-m mb-3">List of students</a>
+					<a th:href="@{/students/new}" class="btn btn-success btn-lg mb-6 btn-block">
+						Add student</a><br> 
+					<a th:href="@{/students}" class="btn btn-secondary btn-lg mb-6 btn-block">
+						List of students</a>
 				</div>
 			</div>
 		</div>
