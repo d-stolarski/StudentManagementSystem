@@ -9,18 +9,22 @@
 	crossorigin="anonymous">
 </head>
 <body>
-	<div class="container">
-		<div class="text-center" >
-			<h1 class="border border-secondary">WELCOME TO<br>STUDENTS MANAGEMENT SYSTEM</h1>
-		</div>
-		<div class="row">
-			<div class="col-lg-3">
-				<a th:href="@{/students/new}" class="btn btn-primary btn-sm mb-3">
-				Add student</a>
-				<a href class="btn btn-primary btn-sm mb-3">List of students</a>
+	<div class="container text-center">
+		<div class="bg-image"
+			style="background-image: url('https://www.freevector.com/uploads/vector/preview/28143/Education_Background_vector_5.jpg'); height: 100vh;">
+			<div class="text-center">
+				<h1 class="border border-secondary">
+					WELCOME TO<br>STUDENTS MANAGEMENT SYSTEM
+				</h1>
+			</div>
+			<div class="row ">
+				<div class="col-lg-3">
+					<a th:href="@{/students/new}" class="btn btn-primary btn-m mb-3">
+						Add student</a> <a th:href="@{/students}"
+						class="btn btn-primary btn-m mb-3">List of students</a>
+				</div>
 			</div>
 		</div>
-		
 	</div>
 </body>
 </html>
